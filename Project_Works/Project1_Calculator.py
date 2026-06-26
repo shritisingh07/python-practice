@@ -1,6 +1,6 @@
 #project to build calculator
 #select of operation
-print("Selected operation are: \n 1.addition \n 2.substraction \n 3.multiplication \n 4.divide")
+print("Selected operation are: \n 1.addition \n 2.substraction \n 3.multiplication \n 4.divide \n 5.average \n 6.reminder")
 
 a = input("please select your operation:") 
 
@@ -17,6 +17,12 @@ elif(a == "multiplication"):
     print(Num1*Num2)
 
 elif(a == "divide"):
+    print(Num1/Num2)
+
+elif(a == "average"):
+    print((Num1+Num2)/2)
+
+elif(a == "reminder"):
     print(Num1%Num2)
 
 else:
